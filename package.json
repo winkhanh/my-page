@@ -2,7 +2,7 @@
   "name": "my-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://winkhanh.github.io/my-page",
+  "homepage": "http://winkhanh.github.io",
 
   "dependencies": {
     "react": "^16.8.3",
