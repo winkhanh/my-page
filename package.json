@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://winkhanh.github.io/my-page",
-
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
