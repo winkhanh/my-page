@@ -3,19 +3,3 @@
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     height: 100vh;
 }
-.home-section__left{
-    background: #000000;
-}
-.home-section__right{
-    
-    display: grid;
-    grid-template-columns: minmax(10px,1fr) 1fr minmax(10px,1fr);
-    grid-template-rows: minmax(10px,50px) 1fr minmax(10px,50px);
-}
-
-.home-section__right img{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    height: 50%;
-    width: auto;
-}
