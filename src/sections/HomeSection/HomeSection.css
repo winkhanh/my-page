@@ -1,5 +1,6 @@
 .home-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     height: 100vh;
+    background: url('../../assets/Beach.jpg') no-repeat center fixed;
+    background-size: cover;
+
 }
