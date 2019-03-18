@@ -11,8 +11,7 @@ class NavBar extends Component{
     handleClick = (id) =>{
         const fullID= ".js-"+id+"-section";
         const section = document.querySelector(fullID);
-        console.log(fullID);
-        console.log(section);
+        
         if (section!= null)
             section.scrollIntoView();
         this.toogleNavBar();

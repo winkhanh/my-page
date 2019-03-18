@@ -1,45 +1,31 @@
 .about-section{
-    height: 100vh;
     background: #323232;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
-.about-section__photo{
 
-}
-.about-section__photo__photo{
-    position: relative;
-    background: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/53117944_2226492180950244_8594979744053723136_n.jpg?_nc_cat=104&_nc_ht=scontent-ort2-1.xx&oh=45ba1248db4e1dd24218d93d1631e54d&oe=5D0C0427)  no-repeat;
-    background-size: contain;
-    top:25%;
-    left:25%;
-    width: 50%;
-    padding-top: 100%;
-    border-radius: 25rem;
-    
-}
 
 .about-section__about{
     position: relative;
-    top: 10%;
-    
     width:80%;
-    height: 80%;
-    background: #fff;
-    opacity: 0.8;
-    border-radius: 1rem;
     color:#5b72cc;
     padding-left: 10px;
     overflow: auto;
+    
+    margin-bottom: 10px;
 }
 .about-section__about__title{
     font-weight: 500;
     font-size: 18px;
+    color: #ffffff;
+    text-align: center;
 }
 .about-section__about__list{
     max-height: 100%;
     display:grid;
     grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+    grid-gap:5px;
 }
 .about-section__about__item--language{
     margin-top:1px;
@@ -48,6 +34,7 @@
     background: #42ddc6;
     border-radius: 1rem ;
     text-align: center;
+    color:#ffffff;
 }
 .about-section__about__item--tech{
     margin-top:1px;
@@ -56,4 +43,19 @@
     background: #b1253e;
     border-radius: 1rem ;
     text-align: center;
+    color:#ffffff;
+}
+.organization{
+    font-weight: 700px;
+    color: red;
+}
+.year{
+    color:#42ddc6;
+}
+.vn{
+    color: red;
+    font-weight: 800;
+}
+.position{
+    color:#b1253e;
 }

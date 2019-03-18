@@ -44,25 +44,23 @@ class AboutSection extends Component{
             )
         });
         return(<div className="about-section js-about-section">
-            <div className="about-section__photo">
-                <div className="about-section__photo__photo">
-                </div>
-            </div>
-            <div className="about-section__about">
+            <div  className="about-section__about">
+                <center><span className="about-section__about__title">Facts about me:</span></center><br></br>
                 <p>
-                    <span className="about-section__about__title">Some facts about me:</span><br></br>
-                    I am from <span>Vietnam</span><br></br>
+                    I am from <span className="vn">Vietnam</span><br></br>
                     I came to SUNY Plattsburgh, US for college. <br></br>
-                    I am <span>a freshman</span> currently.<br></br>
-                    I will graduate in 2020. <br></br>
+                    I am a freshman currently.<br></br>
+                    I will graduate in <span className="year">2020</span>. <br></br>
                     I am a Software Developer.<br></br>
                     I am interested in algorithms and solving problems.<br></br>
+                    I am the <span className="position">secretary</span> of <span className="organization">Software Engineer Club</span> since <span className="year">2018</span>. <br></br>
+                    I am also a <span className="position">full stack developer</span> and the <span className="position">secretary</span> at <span className="organization">Coding Hub</span> since <span className="year">2018</span>. <br></br>
                     I am experienced with: <br></br>
                 </p>
-                <div className="about-section__about__list">
-                    {listOfLanguages}
-                    {listOfTechs}
-                </div>
+            </div>
+            <div className="about-section__about__list about-section__about">
+                {listOfLanguages}
+                {listOfTechs}
             </div>
         </div>)
     }

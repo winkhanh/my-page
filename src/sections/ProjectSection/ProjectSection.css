@@ -1,0 +1,23 @@
+.project-section{
+    height: 100vh;
+    background: url('../../assets/Beach50.jpg') no-repeat center fixed;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+}
+.project-section__container{
+    height:80%;
+    width: 80%;
+    background: url("../../assets/Rectangle.svg");
+    margin: auto;
+    border-radius: 1rem;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 
+
+}
+.project-section__container img{
+    max-height: 100%;
+    max-width: 90%;
+    justify-self: center;
+}
