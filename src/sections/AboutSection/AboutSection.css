@@ -1,5 +1,6 @@
 .about-section{
     background: #323232;
+    z-index: -1;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;

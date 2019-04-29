@@ -22,7 +22,7 @@ const projectList = [
   description:"ABCASDSADA"
   },
   {id:"1",name:"Shuttler",image:"1.jpg",
-  description:"this is shuttle tracking app"
+  description:"this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app "
   }
 ]
 class App extends Component {

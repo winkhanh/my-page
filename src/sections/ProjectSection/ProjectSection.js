@@ -30,16 +30,19 @@ class ProjectSection extends Component{
             return (project.id===this.state.currentProject);
         }).map(project=>{
             return(
-                <p>
-                    {project.description}
-                </p>
+                <div>
+                    <center><h1>{project.name}<br></br></h1></center>
+                    <p>
+                        {project.description}
+                    </p>
+                </div>                
             )
         })
         return(
         <div className="project-section js-project-section">
             <div className="project-section__container">
                 {imageOfProject}
-                <div>
+                <div className="project-section__description">
                     {descriptionOfProject}
                 </div>
             </div>

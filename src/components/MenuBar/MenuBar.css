@@ -4,9 +4,11 @@
     height:10%;
     opacity: 0.5;
     background: #000000;
+    z-index: 1;
 }
 .menu-bar-component__bar img{
     height: 100%;
     width:auto;
     cursor: pointer;
+    z-index: 1;
 }

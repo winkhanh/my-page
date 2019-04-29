@@ -7,6 +7,7 @@
     grid-template-columns: auto 1fr;
     transition: 1s; 
     overflow: hidden;
+    z-index: 10;
 }
 .nav-bar-section__navbar{
     z-index: 10;

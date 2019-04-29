@@ -3,7 +3,8 @@
     position: fixed;
     width: 100vw;
     height: 8vh;
-    opacity: 0.2;
+
+    background: #9a9a9a;
     transition: 1s;
     transition-timing-function: ease-in;
 
