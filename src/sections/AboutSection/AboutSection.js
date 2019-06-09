@@ -54,7 +54,7 @@ class AboutSection extends Component{
                     I am a Software Developer.<br></br>
                     I am interested in algorithms and solving problems.<br></br>
                     I am the <span className="position">secretary</span> of <span className="organization">Software Engineer Club</span> since <span className="year">2018</span>. <br></br>
-                    I am also a <span className="position">full stack developer</span> and the <span className="position">secretary</span> at <span className="organization">Coding Hub</span> since <span className="year">2018</span>. <br></br>
+                    I am also a <span className="position">full stack developer</span> and the <span className="position">Co-Founder</span> of <span className="organization">Coding Hub</span> since <span className="year">2018</span>. <br></br>
                     I am experienced with: <br></br>
                 </p>
             </div>

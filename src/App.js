@@ -17,12 +17,13 @@ const sectionList = [
   {id:"2",name:"project"},
   {id:"3",name:"experience"}
 ];
+
 const projectList = [
   {id:"0",name:"Personal Website",image:"0.jpg",
-  description:"ABCASDSADA"
+  description:"My personal website"
   },
   {id:"1",name:"Shuttler",image:"1.jpg",
-  description:"this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app this is shuttle tracking app "
+  description:"Shuttler is a mobile application, Android and iOS, to help students track the shuttler at SUNY Plattsburgh Users can see the shuttle position in real time displayed on a map"
   }
 ]
 class App extends Component {
